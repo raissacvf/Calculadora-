@@ -1,3 +1,8 @@
+package Calculadora;
+
+/*
+ * @author raissa
+ */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -80,8 +85,6 @@ public class Interface extends JFrame implements ActionListener {
                     double resultado = calculos.calcular(primeiroNumero, segundoNumero, operador);
                     display.setText(String.valueOf(resultado));
                 } catch (IllegalArgumentException ex) {
-                    display.setText("ERRO");
-                } catch (NumberFormatException ex) {
                     display.setText("ERRO");
                 }
                 operador = "";
