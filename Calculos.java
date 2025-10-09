@@ -1,3 +1,8 @@
+package Calculadora;
+
+/*
+ * @author raissa
+ */
 public class Calculos {
     public double calcular(double num1, double num2, String operador) {
         switch (operador) {
