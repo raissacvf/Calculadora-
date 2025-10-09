@@ -1,5 +1,10 @@
-Import javax.swing.SwingUtilities;
+package Calculadora;
 
+import javax.swing.SwingUtilities;
+
+/*
+ * @author raissa
+ */
 public class CalculadoraApp {
 
     public static void main(String[] args) {
@@ -7,8 +12,6 @@ public class CalculadoraApp {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new Interface(); 
+                Interface aInterface = new Interface();
             }
-        }
-    }
-}
+        }}}
